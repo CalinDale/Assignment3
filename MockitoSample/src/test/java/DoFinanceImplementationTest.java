@@ -54,5 +54,10 @@ public class DoFinanceImplementationTest {
 	public void testComputeKiwiSaver() {
 		assertEquals(((emp.getHourlySalary() / 100) * emp.getKiwiSaver()), implementationObj.computeKiwiSaver(emp), 1);
 	}
+	
+	@Test
+	public void testJenkins() {
+		assertEquals("jenkins", "jenkins");
+	}
 
 }
